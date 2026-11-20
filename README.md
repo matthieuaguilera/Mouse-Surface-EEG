@@ -29,7 +29,7 @@ Vector_Mouse_ID = {ID1, ID2, ID3, ID4};
 
 Input.Task        = {'Novel_Object_Recognition'}; % Task names (cell array)
 Input.Task_length = {600};                        % OPTIONAL: task duration (s), used if a time buffer is needed
-Input.Path        = 'Path/to/data';               % Folder containing the mouse folders with the input_Vector Excel files;
+Input.Path        = 'Path/to/data_folder';        % Folder containing the mouse folders with the input_Vector Excel files;
                                                   % imported data will be saved here too
 Input.Phase       = {'Sampling','Test'};          % OPTIONAL: for tasks split into phases (e.g. learning / recall)
 Input.Stage       = {'4_months'};                 % OPTIONAL: for longitudinal tasks (e.g. {'4_months','postflickering'})
